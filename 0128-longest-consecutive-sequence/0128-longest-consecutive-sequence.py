@@ -9,6 +9,5 @@ class Solution:
                 while (num + seqLen) in checked:
                     seqLen += 1
                 longest = max(longest, seqLen)
-
         return longest
         
